@@ -158,7 +158,22 @@ print math.floor(math.log(6,2))
 
 
 
-
+def algortimo6(n):
+	i=1
+	c=0 #contador linea128
+	while i<=n:
+		k=i
+		
+		while k<=n:
+			c=c+1
+			k=k+2
+		k=1
+		c=c+1
+		while k<=1:
+			k=k+1
+		i=2*i
+	#c=c+1
+	print c
 
 
 
